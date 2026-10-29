@@ -1,0 +1,26 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Arquivos de bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Dados locais (brutos e processados)
+dados/bruto/*
+!dados/bruto/.gitkeep
+dados/processado/*
+!dados/processado/.gitkeep
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+.idea/
