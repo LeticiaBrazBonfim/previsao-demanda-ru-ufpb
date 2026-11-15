@@ -11,9 +11,16 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Dados locais (brutos e processados)
+# Dados brutos: somente os três CSVs do mock podem ser versionados
 dados/bruto/*
 !dados/bruto/.gitkeep
+!dados/bruto/mock/
+dados/bruto/mock/*
+!dados/bruto/mock/catraca_ru.csv
+!dados/bruto/mock/estudantes.csv
+!dados/bruto/mock/matriculas_componentes.csv
+
+# Saídas de análise futuras
 dados/processado/*
 !dados/processado/.gitkeep
 
@@ -24,3 +31,6 @@ Thumbs.db
 # Configurações de IDEs
 .vscode/
 .idea/
+
+# Arquivos Agente IA
+docs_agente/
