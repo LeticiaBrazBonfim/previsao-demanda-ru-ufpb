@@ -14,7 +14,7 @@ Essa compactação é uma **exceção de finalidade didática** ao princípio de
 
 ## catraca_ru.csv
 
-**Grão:** uma tentativa de acesso por linha, servida ou negada. **Chave primária:** `id_registro_utilizacao`. **Chave estrangeira:** `id_matricula` para `estudantes.csv`; o período correspondente é determinado pela data do evento.
+**Grão:** uma tentativa de acesso por linha, servida ou negada. **Chave primária:** `id_registro_utilizacao`. **Chave estrangeira:** `id_matricula` para `estudantes.csv`; a data do evento permite procurar um período letivo vigente, quando existir. Eventos em recesso/transição não recebem período inventado.
 
 | Campo | Descrição |
 |---|---|
@@ -91,7 +91,7 @@ Essa compactação é uma **exceção de finalidade didática** ao princípio de
 ## Limitações conhecidas
 
 - O mock não contém frequência por **data de aula**; usa a opção consolidada indicada na solicitação.
-- O mock não gera cancelamentos. Se uma extração real trouxer essa situação, preservar a categoria original e documentar sua definição.
+- A catraca do mock não gera **eventos de acesso cancelados**: `situacao_evento` contém somente `servida` e `negada`. Já `estudantes.csv` contém vínculos com `situacao_vinculo_periodo = cancelado`. Se uma extração real trouxer outra categoria de evento, preservar a categoria original e documentar sua definição.
 - O calendário é simplificado: um recesso anterior e uma data de suspensão por período, sem feriados reais. O RU simulado abre de segunda a sábado. Horários e presença são programados, não observados.
 - Os seis conjuntos acadêmicos pedidos foram comprimidos em duas tabelas largas. Não são extrações reais dessas tabelas.
 - Não há preço por refeição nem histórico de preços nos CSVs do mock.
