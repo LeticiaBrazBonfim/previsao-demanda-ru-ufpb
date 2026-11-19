@@ -26,4 +26,4 @@ Preparado na branch local `codex/e04-consolidada`. Os PRs individuais #3, #4 e #
 
 ## Regra simples para os PRs individuais
 
-Preservar o trabalho dos três integrantes como histórico, mas manter **um só arquivo chamado `E04_equipe02_dados_baseline.ipynb` em `notebooks/`**. `E04_ru_ufpb.ipynb` (Bianca), `entrega-04-kaiovitormr.ipynb` (Kaio) e `entrega-04-mariadionila.ipynb` (Dionila) estão em `notebooks/individuais/`. Os relatórios individuais permanecem em `docs/entregas/`. O README e o PDF apontam apenas para o coletivo como entrega.
+Preservar o trabalho dos três integrantes como histórico, mas manter **um só arquivo chamado `E04_equipe02_dados_baseline.ipynb` em `notebooks/`**. `entrega-04-lavine0524.ipynb` (Bianca), `entrega-04-kaiovitormr.ipynb` (Kaio) e `entrega-04-mariadionila.ipynb` (Dionila) estão em `notebooks/individuais/`. Os relatórios individuais permanecem em `docs/entregas/`. O README e o PDF apontam apenas para o coletivo como entrega.

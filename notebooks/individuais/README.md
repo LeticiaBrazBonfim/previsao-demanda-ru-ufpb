@@ -6,7 +6,7 @@ Os PRs individuais foram integrados em `develop/mock`; seus notebooks estão nes
 
 | Integrante | Arquivo trazido pelo PR | Registro |
 |---|---|---|
-| Bianca Lavine | `notebooks/individuais/E04_ru_ufpb.ipynb` | [PR #3](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/3) |
+| Bianca Lavine | `notebooks/individuais/entrega-04-lavine0524.ipynb` | [PR #3](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/3) |
 | Kaio Vitor | `notebooks/individuais/entrega-04-kaiovitormr.ipynb` | [PR #4](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/4) |
 | Maria Dionila | `notebooks/individuais/entrega-04-mariadionila.ipynb` | [PR #5](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/5) |
 
