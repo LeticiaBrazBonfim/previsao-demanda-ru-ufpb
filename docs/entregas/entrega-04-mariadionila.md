@@ -14,7 +14,7 @@ Implementei um baseline operacional e um baseline trivial sobre a base diária d
 
 ## Arquivos criados ou modificados
 
-- `notebooks/entrega-04-mariadionila.ipynb`: notebook executável do início ao fim. Reproduz a base diária (grão `data × tipo_refeicao`) e a partição temporal (treino/validação/teste) como pré-requisito, e contém a seção de baselines: cálculo do baseline trivial e do operacional, métrica na validação, erro em R$, tabela de resultados, explicação dos erros, pressupostos/limitações e diagnóstico de vazamento de três variáveis.
+- `notebooks/individuais/entrega-04-mariadionila.ipynb`: notebook executável do início ao fim. Reproduz a base diária (grão `data × tipo_refeicao`) e a partição temporal (treino/validação/teste) como pré-requisito, e contém a seção de baselines: cálculo do baseline trivial e do operacional, métrica na validação, erro em R$, tabela de resultados, explicação dos erros, pressupostos/limitações e diagnóstico de vazamento de três variáveis.
 - `docs/entregas/entrega-04-mariadionila.md`: este relatório.
 - `dados/processado/base_analitica_diaria.csv` e `dados/processado/resultados_baselines_validacao.csv`: gerados pela execução do notebook (não versionados, conforme `.gitignore` do projeto).
 

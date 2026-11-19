@@ -16,7 +16,7 @@ Salvamento da base processada em dados/processado/base_analitica_diaria.csv.
 3. Arquivos Criados ou Modificados
 docs/entregas/entrega-04-lavine0524.md (Este relatório individual).
 dados/processado/base_analitica_diaria.csv (Base analítica diária gerada e completa).
-Notebook de exploração e auditoria na pasta notebooks/.
+Notebook de exploração e auditoria em `notebooks/individuais/E04_ru_ufpb.ipynb`.
 4. Metodologia
 A metodologia adotada priorizou a integridade dos dados e a reprodutibilidade, seguindo as diretrizes do projeto:
 Preservação do Grão: Cada refeição servida única foi identificada por seu id_registro_utilizacao, garantindo que cruzamentos com tabelas 1-para-muitos (como componentes curriculares) não multiplicassem artificialmente a contagem de demanda.

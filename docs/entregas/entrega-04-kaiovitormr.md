@@ -13,7 +13,7 @@ Conferi os três CSVs do mock sem alterar os brutos, montei a base diária de re
 
 ## Arquivos criados ou modificados
 
-- `notebooks/entrega-04-kaiovitormr.ipynb`: auditoria, base diária, partição e classificação de variáveis. Cada conferência entra numa tabela final.
+- `notebooks/individuais/entrega-04-kaiovitormr.ipynb`: auditoria, base diária, partição e classificação de variáveis. Cada conferência entra numa tabela final.
 - `docs/entregas/entrega-04-kaiovitormr.md`: este relatório.
 
 ## Metodologia

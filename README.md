@@ -13,7 +13,7 @@ O notebook principal é [`notebooks/E04_equipe02_dados_baseline.ipynb`](notebook
 - [`docs/relatorio_qualidade_e04.md`](docs/relatorio_qualidade_e04.md): problemas, decisões, reconciliações e métricas.
 - [`output/pdf/E04_equipe02_dados_baseline.pdf`](output/pdf/E04_equipe02_dados_baseline.pdf): relatório final em PDF; reproduzido por `src/gerar_relatorio_pdf_e04.py`.
 
-As contribuições individuais estão documentadas nos PRs [#3 (Bianca)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/3), [#4 (Kaio)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/4) e [#5 (Dionila)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/5). Os notebooks desses PRs são registros individuais, com escopos e resultados próprios; **não substituem** o notebook coletivo acima. Após integrar os PRs, eles devem ser movidos para [`notebooks/individuais/`](notebooks/individuais/README.md) em um commit da consolidação.
+As contribuições individuais estão documentadas nos PRs [#3 (Bianca)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/3), [#4 (Kaio)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/4) e [#5 (Dionila)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/5). Seus notebooks estão em [`notebooks/individuais/`](notebooks/individuais/README.md) como registro de contribuição; **não substituem** o notebook coletivo acima.
 
 ## Reproduzir
 
