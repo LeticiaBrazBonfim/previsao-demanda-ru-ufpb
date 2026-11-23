@@ -21,7 +21,6 @@
 - `notebooks/individuais/entrega-05-mariadionila.ipynb`: notebook executável do início ao fim (base, partição, baselines, modelo, CV, quadro, resíduos, limites).
 - `output/figuras/e05_residuos_validacao.png`, `e05_mae_dia_refeicao.png`, `e05_total_diario.png`: gráficos para o relatório.
 - `requirements.txt`: adicionado `matplotlib==3.11.2` (necessário apenas para os gráficos; autorizado pela autora).
-- `README.md`: seção curta de reprodução desta contribuição.
 - `dados/processado/resultados_comparacao_e05.csv` e `resultados_cv_temporal_e05.csv`: gerados pela execução (não versionados).
 
 ## Metodologia
@@ -61,7 +60,7 @@ Teste 2026, aberto uma vez (4.914 linhas): MAE 2,88 / 2,20 / **1,77**; RMSE 3,49
 - Hipóteses do Ridge (linearidade, variância constante) são fracas para contagens; os resíduos do almoço mostram heterocedasticidade.
 - Depende de catraca fechada na véspera e de histórico por curso; curso novo não tem `lag_7`.
 - Não usar para decidir subsídio ou elegibilidade.
-- Pendente: conferir os números com o notebook coletivo e com o relatório consolidado por Letícia; a autora deve revisar e conseguir explicar cada bloco antes do PR. Nada foi commitado ou publicado ainda.
+- Pendente: conferir os números com o notebook coletivo e com o relatório consolidado por Letícia;
 
 ## Uso de IA generativa
 
