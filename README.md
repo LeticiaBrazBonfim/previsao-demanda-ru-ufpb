@@ -15,6 +15,16 @@ O notebook principal é [`notebooks/E04_equipe02_dados_baseline.ipynb`](notebook
 
 As contribuições individuais estão documentadas nos PRs [#3 (Bianca)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/3), [#4 (Kaio)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/4) e [#5 (Dionila)](https://github.com/LeticiaBrazBonfim/previsao-demanda-ru-ufpb/pull/5). Seus notebooks estão em [`notebooks/individuais/`](notebooks/individuais/README.md) como registro de contribuição; **não substituem** o notebook coletivo acima.
 
+## Entregas 05 e 06
+
+- [`notebooks/E05_equipe02_pacote_a1.ipynb`](notebooks/E05_equipe02_pacote_a1.ipynb): baselines, Ridge, validação temporal, comparação e resíduos.
+- [`output/pdf/E05_equipe02_pacote_a1.pdf`](output/pdf/E05_equipe02_pacote_a1.pdf): relatório final da E05, com uma página.
+- [`notebooks/E06_equipe02_relatorio_preliminar.ipynb`](notebooks/E06_equipe02_relatorio_preliminar.ipynb): D-7, Ridge, árvore e Random Forest, seleção de hiperparâmetros e análise de erros.
+- [`output/pdf/E06_equipe02_relatorio_preliminar.pdf`](output/pdf/E06_equipe02_relatorio_preliminar.pdf): relatório preliminar da E06, com duas páginas.
+- [`docs/relatorio_consolidacao_e05_e06.md`](docs/relatorio_consolidacao_e05_e06.md): situação objetiva de cada contribuição e correções aplicadas.
+
+Na validação de 2025, o Ridge foi selecionado provisoriamente com MAE 1,703 e RMSE 2,238. O resultado vale apenas para o mock. O teste de 2026 havia sido consultado numa contribuição individual da E05; a E06 não o reutiliza e registra essa limitação.
+
 ## Reproduzir
 
 Na raiz do projeto, com Python instalado:
@@ -36,6 +46,14 @@ O notebook grava quatro arquivos reproduzíveis em `dados/processado/`: `base_an
 Para dados reais, a primeira célula de código contém `MODO`, `BRUTOS`, `COBERTURA_REAL`, `COLUNA_VALOR_EVENTO` e os cortes de data. Além de adaptar o esquema, prepare `cobertura_real.csv` com `data`, `tipo_refeicao`, `curso`, `aberto` e `extracao_completa` (`sim`/`nao`), uma linha por curso ativo e refeição em cada data. **Sem comprovação de cobertura, ausência de evento não vira zero.** Não coloque arquivos institucionais em `dados/bruto/mock/` nem os publique no repositório.
 
 Para reconstruir o relatório PDF a partir do Markdown: `.\.venv\Scripts\python.exe src\gerar_relatorio_pdf_e04.py`.
+
+Para executar e reconstruir as entregas mais recentes:
+
+```powershell
+.\.venv\Scripts\python.exe -m nbconvert --to notebook --execute notebooks\E05_equipe02_pacote_a1.ipynb --output E05_equipe02_pacote_a1.ipynb --output-dir notebooks
+.\.venv\Scripts\python.exe -m nbconvert --to notebook --execute notebooks\E06_equipe02_relatorio_preliminar.ipynb --output E06_equipe02_relatorio_preliminar.ipynb --output-dir notebooks
+.\.venv\Scripts\python.exe src\gerar_relatorios_pdf_e05_e06.py
+```
 
 ## Limites
 
