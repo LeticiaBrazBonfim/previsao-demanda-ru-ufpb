@@ -1,0 +1,3 @@
+metodo,perda_selecao,alpha,MAE_validacao_2025,RMSE_validacao_2025,linhas_validacao,tempo_busca_segundos,tempo_fit_final_segundos,semente
+Ridge regularizado,MAE medio em 5 dobras temporais do treino,0.1,2.4390014555565624,3.0381816592156823,5634,0.48539729998447,0.02369389997329563,não aplicável (Ridge determinístico)
+D-7 heuristica proposta,sem ajuste de parametro,,2.1393326233581824,2.950635148798925,5634,0.0,0.0,não aplicável
